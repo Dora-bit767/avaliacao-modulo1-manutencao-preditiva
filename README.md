@@ -64,20 +64,26 @@ A utilização do balanceamento com SMOTE contribuiu para reduzir o desequilíbr
 Com base nos resultados obtidos, a Random Forest foi o algoritmo que apresentou maior capacidade de classificação para este conjunto de dados.
 
 
- # Estrutura do Projeto
+# Estrutura do Projeto
 
 Avaliacao_modulo1/
 │
+├── .venv/
 ├── data/
 │   └── manutencao_preditiva.csv
 │
-├── notebook/
-│   └── Projeto_Manutencao_Preditiva.ipynb
+├── graficos/
 │
+├── imagens/
+│   ├── hist_temperatura.png
+│   ├── boxplot_torque.png
+│   └── distribuicao_falha.png
+│
+├── main.ipynb
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 # Como Executar
 
